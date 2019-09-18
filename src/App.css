@@ -1,12 +1,12 @@
 :root {
   --black: #0d0d0d;
-  --red: #ff2d2b;
+  --red: peru;
 }
 
 .scoreboard {
   width: 58%;
-  margin: 10rem auto;
-  background-color: #0b5402;
+  margin: 2rem auto;
+  background-color: black;
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-around;
   place-items: center;
-  /* height: 20rem; */
+  height: 20rem;
 }
 
 .home,
@@ -38,7 +38,7 @@
 }
 
 .away {
-  background-color: #af750a;
+  background-color: #d88e05;
 }
 
 .home__name,
