@@ -19,10 +19,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  background-image: url('https://images.unsplash.com/photo-1485313260896-6e6edf486858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'), url('photo.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%, 50%;
+  background-position:left bottom, right bottom; 
+  background-position-y: 220px;
+  background-color: #f5f5f2;
+ 
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
